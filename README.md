@@ -23,7 +23,7 @@ Program Outline
 - program information
     - program description
     - course list
-    - course description
+        - course description
     - duration
 - program outcomes
     - possible careers
@@ -67,3 +67,4 @@ Footer
     - social media
 - privacy policy
 - website feedback
+- Terms of Use
