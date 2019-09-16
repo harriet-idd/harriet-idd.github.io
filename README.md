@@ -59,7 +59,7 @@ FAQ
 Footer
 - copyright
 - sitemap
-- 54321`r   `   Contact School
+- Contact School
     - email
     - phone
     - address / location
