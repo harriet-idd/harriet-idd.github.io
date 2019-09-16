@@ -52,7 +52,7 @@ Students Seeking Jobs
 - link to resume and CV
 - contact (students)
 
-FAQ 
+FAQ  
 - questions
 - answers
 - facts
