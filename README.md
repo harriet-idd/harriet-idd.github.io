@@ -2,6 +2,7 @@
 This is a **placeholder** _document_
 
 Header 
+- Title / Program Name
 - Navigation
 - Home Button
 - Search Bar
