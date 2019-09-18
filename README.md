@@ -33,10 +33,9 @@ About Students
     - photo
     - name
     - bio
-    - link to personal site / social media / linked in
+    - link to personal site / linked in
     - portfolio
     - list of skills / abilities
-    - software icons
     - contact (students)
     - resume and CV
 - student success stories
@@ -50,12 +49,11 @@ Students Seeking Jobs
 - link to their profile
 - objective
 - link to resume and CV
-- contact (students)
+- contact (students)updates s
 
 FAQ  
 - questions
 - answers
-- facts
 
 Footer
 - copyright
@@ -68,3 +66,8 @@ Footer
 - privacy policy
 - website feedback
 - Terms of Use
+
+QUESTIONS
+- am i using headers properly?
+- classes... is that more when we get in to styling?
+- student seeking jobs section
