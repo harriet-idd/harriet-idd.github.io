@@ -71,3 +71,4 @@ QUESTIONS
 - am i using headers properly?
 - classes... is that more when we get in to styling?
 - student seeking jobs section
+- am i using too many lists?
