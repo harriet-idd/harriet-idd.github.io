@@ -22,9 +22,9 @@ Body
 Program Outline
 - program information
     - program description
-    - course list
-        - course description
-    - duration
+    - years *******
+        - descriptions of whats learned
+        - list of classes
 - program outcomes
     - possible careers
 
@@ -72,3 +72,4 @@ QUESTIONS
 - classes... is that more when we get in to styling?
 - student seeking jobs section
 - am i using too many lists?
+- is lorem ipsum ok in descriptions
