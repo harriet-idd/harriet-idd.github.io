@@ -1,0 +1,38 @@
+html {
+    /*** Background Colours ***/
+    --primary-a:
+    --primary-b:
+    --secondary-a:
+    --secondary-b:
+    --background: #ffffff;
+    --error: #b00020;
+    /*** Background Colours ***/
+
+    /*** Foreground Colours ***/
+    --on-primary: #ffffff;
+    --on-secondary: #000000;
+    --on-background:#222222;
+    --on-error: #ffffff;
+     /*** Foreground Colours ***/
+
+     /*** Font Sets ***/
+     --font-body: helvetica; 
+     --font-impact: 
+     /*** Font Sets ***/
+}
+
+body {
+    background-color: var(--background);
+
+    /* font-weight: normal;
+    font-style: normal;
+    font-size: 1em;
+    font-family: var(--font-body);
+    line-height:1.4; */
+
+    font: normal normal 1em/1.4 var(--font-body);
+}
+
+h1, h2, h3 {
+    font-family: var(--font-impact)
+}
