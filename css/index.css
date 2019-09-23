@@ -1,9 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Hind|Open+Sans&display=swap');
+
 html {
     /*** Background Colours ***/
-    --primary-a:
-    --primary-b:
-    --secondary-a:
-    --secondary-b:
+    --primary-a:#3f51b5;
+    --primary-b:#a094b7;
+    --secondary-a:#737aba;
+    --secondary-b:#fff7ff;
     --background: #ffffff;
     --error: #b00020;
     /*** Background Colours ***/
@@ -16,8 +18,8 @@ html {
      /*** Foreground Colours ***/
 
      /*** Font Sets ***/
-     --font-body: helvetica; 
-     --font-impact: 
+     --font-body: 'Hind', Helvetica, Arial, Georgia, sans-serif;
+     --font-impact: 'Open Sans', Helvetica, Arial, Georgia, sans-serif;
      /*** Font Sets ***/
 }
 
@@ -31,8 +33,39 @@ body {
     line-height:1.4; */
 
     font: normal normal 1em/1.4 var(--font-body);
+    color: var(--on-background);
+}
+
+h1, h2, h3, h4 {
+    font-family: var(--font-impact);
 }
 
 h1, h2, h3 {
-    font-family: var(--font-impact)
+    text-align: center;
+}
+
+header {
+    background-color: var(--primary-a);
+    color: var(--on-primary);
+    text-align: center;
+}
+
+nav {
+    color: var(--on-primary);
+}
+
+.navbar {
+    color: var(--on-primary);
+}
+
+a {
+    text-decoration: none; 
+}
+
+ul {
+    list-style: none;
+}
+
+footer {
+    background-color: var(--secondary-a);
 }

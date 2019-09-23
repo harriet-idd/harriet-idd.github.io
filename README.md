@@ -36,7 +36,6 @@ About Students
     - link to personal site / linked in
     - portfolio
     - list of skills / abilities
-    - contact (students)
     - resume and CV
 - student success stories
     - name
