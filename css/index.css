@@ -3,8 +3,8 @@
 html {
     /*** Background Colours ***/
     --primary-a:#3f51b5;
-    --primary-b:#a094b7;
-    --secondary-a:#737aba;
+    --primary-b:#737aba;
+    --secondary-a:#a094b7;
     --secondary-b:#fff7ff;
     --background: #ffffff;
     --error: #b00020;
