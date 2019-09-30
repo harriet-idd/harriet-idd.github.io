@@ -2,10 +2,10 @@
 
 html {
     /*** Background Colours ***/
-    --primary-a:#3f51b5;
-    --primary-b:#737aba;
-    --secondary-a:#a094b7;
-    --secondary-b:#fff7ff;
+    --primary-a:#37474f;
+    --primary-b:#62727b;
+    --secondary-a:#bcbcbc;
+    --secondary-b:#eeeeee;
     --background: #ffffff;
     --error: #b00020;
     /*** Background Colours ***/
@@ -33,15 +33,37 @@ body {
     line-height:1.4; */
 
     font: normal normal 1em/1.4 var(--font-body);
-    color: var(--on-background);
+    color: var(--primary-a);
 }
 
 h1, h2, h3, h4 {
     font-family: var(--font-impact);
+    text-align: center;
 }
 
-h1, h2, h3 {
-    text-align: center;
+h1, h2, h3 { 
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+h1 {
+    background-color:#102027;
+    font-size: 1.5em;
+}
+
+h2 {
+    background-color: var(--secondary-a);
+}
+
+h3 {
+    background-color: var(--secondary-b);
+}
+
+h4 {
+    line-height: 2em;
+    color: var(--on-background);
 }
 
 header {
@@ -51,11 +73,15 @@ header {
 }
 
 nav {
-    color: var(--on-primary);
+    color: var(--secondary-a);
 }
 
 .navbar {
     color: var(--on-primary);
+    margin-left: 1em;
+    margin-right: 1em;
+    line-height: 2em;
+    width: auto 100%;
 }
 
 a {
@@ -66,6 +92,67 @@ ul {
     list-style: none;
 }
 
-footer {
-    background-color: var(--secondary-a);
+ul.center-this {
+    padding-right: 1em;
 }
+
+footer {
+    background-color: var(--primary-b);
+    text-align: center;
+    color: var(--on-primary);
+    margin-top: 1em;
+}
+
+.image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    padding-left: 0;
+}
+
+.footer-bar {
+    color: var(--on-primary);
+    margin-left: 1em;
+    margin-right: 1em;
+    line-height: 2em;
+}
+
+.font-color p {
+    text-align: center;
+    color: var(--primary-b);
+}
+
+.font-color a {
+    color: var(--primary-b);
+    text-align: center;
+}
+
+.semester {
+    color: var(--primary-b);
+    text-align: left;
+}
+
+p {
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.center-this {
+    text-align: center;
+}
+
+.progam-description {
+    margin-left: 1em;
+}
+
+/*** For Big Screen ***/
+.semester section {
+    display: inline-block;
+    align-content: center;
+}
+
+.navbar:hover {
+    color: var(--on-secondary);
+}
+/*** For Big Screen ***/
