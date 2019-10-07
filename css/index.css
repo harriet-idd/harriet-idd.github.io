@@ -88,6 +88,10 @@ a {
     text-decoration: none; 
 }
 
+a:hover {
+    color: var(--on-secondary);
+}
+
 ul {
     list-style: none;
 }
@@ -128,31 +132,70 @@ footer {
     text-align: center;
 }
 
+ .font-color a:hover {
+    color: var(--on-secondary);
+ }
+
 .semester {
     color: var(--primary-b);
     text-align: left;
 }
 
 p {
-    padding-left: 1em;
-    padding-right: 1em;
+    padding-left: 2em;
+    padding-right: 2em;
 }
 
 .center-this {
     text-align: center;
 }
 
-.progam-description {
-    margin-left: 1em;
+.program-description {
+    border-bottom: 1px solid var(--secondary-a);
+
 }
 
-/*** For Big Screen ***/
+/*** For Big Screen
 .semester section {
     display: inline-block;
     align-content: center;
 }
 
-.navbar:hover {
-    color: var(--on-secondary);
+.navbar {
+    display: grid;
+    grid-template-columns: 3em auto 3em;
+    grid-template-areas: 
+    "hamb logo cart"
+    "srch srch srch"
+    "menu menu menu";
 }
-/*** For Big Screen ***/
+
+.hamb {
+    grid-area: hamb;
+}
+.logo {
+    grid-area: logo;
+    justify-self: center;
+}
+.srch {
+    grid-area: srch;
+    border: none;
+    border-radius: 1em;
+    background-color: var(--background);
+    margin: 0 1em;
+    background-image: url(/img/search.svg;
+    background-repeat: no-repeat;
+    background-position: o.5em -0.25em;
+    padding: o.5em;
+    padding-left: 2em;
+}
+.srch::placeholder {
+    color: #aaa;
+.cart {
+    grid-area: cart;
+}
+.menu {
+    grid-area: menu;
+}
+
+For Big Screen ***/
