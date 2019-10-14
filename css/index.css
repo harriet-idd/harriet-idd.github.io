@@ -100,6 +100,10 @@ ul.center-this {
     padding-right: 1em;
 }
 
+li {
+    line-height: 1.5em;
+}
+
 footer {
     background-color: var(--primary-b);
     text-align: center;
@@ -144,6 +148,7 @@ footer {
 p {
     padding-left: 2em;
     padding-right: 2em;
+    line-height: 1.5em;
 }
 
 .center-this {
